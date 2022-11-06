@@ -97,7 +97,7 @@ function toChars(context, width, height, rowChars) {
 }  
 // xác định kí tự chạy vào map
 function getCharsMap() {  
-    var chars = ['@', '#','$','!', '~', '`',  ];
+    var chars = ['@', '#','$','!', '~', '`', '.' ];
     // var chars = ['@','$','#','w','i','#', 'i', '-','-','`' ,'`' ]  (đây là đoạn kí tự mình setup nếu dùng pixel=w*h)
     var step = 25,  
         map = {};  
